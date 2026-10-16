@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.contextwindowsupply/store",
+  "description": "Browse merch for AI builders, get US shipping quotes, and create Stripe checkout links.",
+  "title": "Context Window Supply",
+  "version": "1.0.1",
+  "websiteUrl": "https://contextwindowsupply.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://contextwindowsupply.com/mcp"
+    }
+  ]
+}
