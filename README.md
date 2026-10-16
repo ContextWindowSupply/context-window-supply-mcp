@@ -21,6 +21,7 @@ Product images are digital previews.
 | `get_product` | Get one product's sizes, colors and price. |
 | `get_shipping_quote` | Quote US shipping for a cart. |
 | `create_checkout_link` | Create a Stripe checkout link a person opens to pay. |
+| `request_refund` | File a refund request for a past order. A person reviews it and replies by email. It never refunds anything by itself. |
 
 ## Connect
 
